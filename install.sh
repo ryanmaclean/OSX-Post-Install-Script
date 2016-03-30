@@ -421,8 +421,8 @@ sudo pip install awscli
 ## WARN USER
 ###RUB SOME SLEEP ON IT!
 sleep 30
-echo About to close many apps - shutdown the following, or have them cycled for you: 
-echo Address Book, Calendar, Contacts, Dashboard, Dock, Finder, Mail, Safari, SystemUIServer, Terminal, iCal, iTunes
+echo "About to close many apps - shutdown the following, or have them cycled for you:"
+echo "Address Book, Calendar, Contacts, Dashboard, Dock, Finder, Mail, Safari, SystemUIServer, Terminal, iCal, iTunes"
 ## CLOSE ALL APPS THAT NEED TO BE REFRESHED FOR SETTINGS TO TAKE
 #for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" "Mail" "Safari" "SystemUIServer" "Terminal" "iCal" "iTunes"; do killall "$app" > /dev/null 2>&1 done
 
