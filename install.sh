@@ -351,12 +351,11 @@ brew cask install bee iterm2 sourcetree github-desktop chefdk
 
 ## Now Defaults to Atom from GitHub (Using /Applications for .app)
 brew cask install atom --appdir=/Applications
-
 #brew cask install textwrangler 
 
 ## PICK A MOCKUP APP
-brew cask install balsamiq-mockups --appdir=/Applications
-#brew cask install pencil
+#brew cask install balsamiq-mockups --appdir=/Applications
+brew cask install pencil --appdir=/Applications
 
 ## SYSTEM UTILITIES 
 brew cask install disk-inventory-x moom unetbootin istat-menus alfred caffeine keepassx cyberduck rescuetime the-unarchiver logmein-client royal-tsx jdownloader lastfm --appdir=/Applications
@@ -370,39 +369,37 @@ brew cask install disk-inventory-x moom unetbootin istat-menus alfred caffeine k
 brew cask install dockertoolbox
 #wget https://github.com/docker/toolbox/releases/download/v1.8.3/DockerToolbox-1.8.3.pkg
 #sudo installer -pkg DockerToolbox-1.8.3.pkg -target /
-###Otto from Hashicorp (Replacing Vagrant brew cask)
-brew cask install otto
 
 ## GRAPHICS APPS
 ## Set "wacom-tablet" to "wacom-bamboo-tablet" for bamboo users
-brew cask install google-nik-collection wacom-tablet adobe-creative-cloud --appdir=/Applications
+#brew cask install google-nik-collection wacom-tablet adobe-creative-cloud --appdir=/Applications
 
 ## BROWSERS - UNCOMMENT YOUR FAVOURITE AND/OR INSTALL THEM ALL #################################################
 ## INSTALL CHROME, REMOTE DESKTOP, CHROMECAST AND TURN OFF ANNOYING SWIPE LEFT RIGHT BEHAVIOUR
 brew cask install chromecast chrome-remote-desktop-host google-chrome --appdir=/Applications && defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 ## INSTALL FIREFOX
-#brew cask install firefox --appdir=/Applications
+brew cask install firefox --appdir=/Applications
 
 ## INSTALL OPERA
 #brew cask install opera --appdir=/Applications
 ###############################################################################################################
 
 ## INSTALL DB TOOLS
-brew cask install navicat-for-postgresql --appdir=/Applications
+#brew cask install navicat-for-postgresql --appdir=/Applications
 #This appears to have been removed :(
 #brew cask install toad --appdir=/Applications
 
 ## INSTANT MESSAGING
-brew cask install colloquy slack --appdir=/Applications
+brew cask install slack --appdir=/Applications
 #removed adium
 #brew cask install adium --appdir=/Applications
 
 ## INSTALL BACKUP APPS
-brew cask install backblaze carbon-copy-cloner --appdir=/Applications
+#brew cask install backblaze carbon-copy-cloner --appdir=/Applications
 
 ## BROWSER PLUGINS
-brew cask install silverlight flash-player --appdir=/Applications
+#brew cask install silverlight flash-player --appdir=/Applications
 ###Lastpass Universal removed :(
 #brew cask install lastpass-universal --appdir=/Applications
 ## SPOTIFY
