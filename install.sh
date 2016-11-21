@@ -192,8 +192,8 @@ defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 ## SET SUPER FAST KEY REPEAT, SMALL DELAY
-defaults write NSGlobalDomain KeyRepeat -int 0
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 ## EXPAND SAVE PANEL BY DEFAULT
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
