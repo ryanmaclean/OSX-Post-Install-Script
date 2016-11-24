@@ -62,7 +62,8 @@ Settings Changed
  - Turned off fast user switching
  - Set default shell to zsh
  - Natural mouse scroll turned off
- - Right click on trackpad
+ - Right click on trackpad bottom right
+ - Turned off "shake to locate cursor"
  - Default Shell set to zsh
  - Terminal.app set to Homebrew theme
  - Hostname set everywhere
