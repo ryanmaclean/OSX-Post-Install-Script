@@ -26,6 +26,9 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
+## MOUSE + TRACKPAD: TURN OFF "SHAKE TO LOCATE CURSOR"
+defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool NO
+
 ## SHOW PERCENTAGE IN BATTERY STATUS
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.menuextra.battery ShowTime -string "NO"
